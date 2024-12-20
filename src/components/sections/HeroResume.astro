@@ -1,0 +1,59 @@
+---
+import { Image } from "astro:assets";
+import WebsiteDeveloper from "../../assets/pics/kryukovs1.png";
+import WebsiteDeveloperLeft from "../../assets/pics/kryukovs-left.png";
+import Nbook1 from "../../assets/pics/nbook1.png";
+import Nbook2 from "../../assets/pics/nbook2.png";
+import Nbook3 from "../../assets/pics/nbook3.png";
+import Section from "./Section.astro";
+import FormOption from "../ui/Сommunication.astro";
+import BgGradient from '../ui/BgGradient.astro'
+---
+
+<Section id="hero">
+  <div
+    class="grid grid-cols-1 grid-template xl:grid-cols-2 xl:grid-rows-1 mt-[135px] lg:h-full lg:overflow-x-hidden"
+  >
+    <div class="mt-4 lg:mt-16 flex flex-col w-full lg:w-[90%]">
+      <h1 class="text-[14px] mb-4">Резюме:</span></h1>
+      <div class="leading-normal">
+        <p class="text-[44px] lg:text-6xl font-semibold">Привет! 👋</p>
+        <p class="text-[44px] lg:text-6xl font-semibold">меня зовут</p>
+        <p class="bg-clip-text text-transparent bg-gradient-to-r from-[#13b690] to-[#855a9e] text-[44px] lg:text-6xl font-semibold mt-4">Сергей Крюков</p>
+      </div>
+      <p class="ml-1 text-xl lg:text-2xl font-bold my-6">Ищу работу <span class="greenhead">на должность</span>:</p>
+      <ul class="ml-1 text-xl lg:text-2xl font-bold my-3">
+        <li>- Frotand-разработчик</li>
+        <li>- Программист</li>
+        <li>- web-разработчик</li>
+      </ul>
+    </div>
+    <div class="row-span-1 xl:row-span-3">
+      <div class="group  relative mb-6">
+        <div class="ml-auto mr-0 relative h-full w-full">
+          <Image src={WebsiteDeveloper} alt="KryukovS" loading="eager" class="pl-[30%] pb-[30%] 2xl:pb-0 2xl:pl-0 lg:mt-0 rounded-3xl mt-6 ml-auto mr-0 2xl:max-w-[600px] group-hover:hidden"/>
+          <Image src={WebsiteDeveloperLeft} alt="KryukovS" loading="eager" class="pl-[30%] pb-[30%] 2xl:pb-0 2xl:pl-0 lg:mt-0 rounded-3xl mt-6 ml-auto mr-0 2xl:max-w-[600px] group-hover:block hidden"/>
+          <Image src={Nbook1} alt="nout"  loading="eager" class="absolute bottom-[130px] 2xl:bottom-[220px] left-0 z-10 2xl:z-20 max-w-[210px] 2xl:max-w-[400px] translate-y-10 object-cover transition-all duration-[0.7s]"/>
+          <Image src={Nbook2} alt="nout2"  loading="eager" class="absolute bottom-[130px] 2xl:bottom-[220px] left-0 z-10 2xl:z-20 max-w-[210px] 2xl:max-w-[400px] translate-y-10 object-cover transition-all duration-[0.7s] 2xl:group-hover:bottom-[260px] 2xl:group-hover:left-12"/>
+          <Image src={Nbook3} alt="nout3"  loading="eager" class="absolute bottom-[130px] 2xl:bottom-[220px] left-0 z-10 2xl:z-20 max-w-[210px] 2xl:max-w-[400px] translate-y-10 object-cover transition-all duration-[0.7s] 2xl:group-hover:bottom-[310px] 2xl:group-hover:left-24"/>
+        </div>
+        <div class="absolute bottom-0 2xl:bottom-10 left-0 w-full flex items-center justify-center z-10 2xl:px-6">
+          <p class="my-4 2xl:my-0 text-md lg:text-xl backdrop-blur-sm bg-[#fff]/70 rounded-3xl p-4 2xl:py-6 2xl:px-10">
+            Мне нравится создавать классные SEO-оптимизированные сайты и быстрые web-приложения.
+          </p>
+        </div>
+      </div>      
+    </div>
+    
+    <div id="forForm" class="w-full lg:w-[90%] 2xl:w-[80%]">
+      <FormOption/>
+    </div>
+    <BgGradient/>
+  </div>
+</Section>
+<style>
+  .grid-template {
+    grid-template-rows: auto 1fr;
+  }
+</style>
+

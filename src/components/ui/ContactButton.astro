@@ -1,0 +1,90 @@
+---
+import { Image } from "astro:assets"
+import Tg from "../../assets/telegram.svg"
+import Wp from "../../assets/whatsapp.svg"
+
+---
+<style>
+    .awscontainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 300px;
+}
+button.awsBtn {
+  position: relative;
+  display: block;
+  padding: 0px 30px;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 40px;
+  letter-spacing: 2px;
+  color: #fff;
+  z-index: 1;
+  background: linear-gradient(90deg, #13b690, #855a9e, #e60ba9, #03a9f0);
+  background-size: 400%;
+  box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
+    -2px -2px 12px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1), 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+button.awsBtn:hover span {
+  transform: scale(0.98);
+}
+button.awsBtn:before {
+    filter: blur(12px);
+  z-index: -1;
+  opacity: 1;
+  animation: animatewv 7s linear infinite;
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  background: linear-gradient(40deg, #13b690, #855a9e);
+  background-size: 200%;
+  border-radius: 30px;
+  transition: 0.8s;
+}
+button.awsBtn:hover:before {
+  filter: blur(20px);
+  z-index: -1;
+  opacity: 1;
+  animation: animatewv 5s linear infinite;
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  background: linear-gradient(90deg, #13b690, #855a9e, #e60ba9, #03a9f0);
+  background-size: 400%;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+@keyframes animatewv {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+</style>
+<div class="flex flex-row justify-normal">
+  <a  href="https://wa.me/79176103476" class='ml-3'>
+    <button type="button" class="greenhead hover:invert text-bold text-lg p-3 md:pr-6 text-[#fff] inline-flex items-center gap-x-2 text-[12px] rounded-full hover:bg-green-100 focus:outline-none focus:bg-green-50 disabled:opacity-50 disabled:pointer-events-none">
+      <Image src={Wp} alt="Tg"/><span class="hidden md:block"> WhatsApp</span>
+    </button>
+</a>
+    <div class='ml-3 md:ml-8 my-auto'>ИЛИ</div>
+    <a  href="https://t.me/sergeikrk" class='ml-3 md:ml-8'>
+        <button type="button" class="greenheadinv hover:invert text-bold text-lg p-3 md:pr-6 inline-flex items-center gap-x-2 text-[12px] rounded-full text-gray-850 hover:bg-green-100 focus:outline-none focus:bg-green-50 disabled:opacity-50 disabled:pointer-events-none">
+          <Image src={Tg} alt="Wp"/><span class="hidden md:block"> Telegram</span>
+        </button>
+    </a>
+</div>

@@ -1,0 +1,37 @@
+{
+  "name": "init-template",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.7.0",
+    "@astrojs/react": "^3.6.2",
+    "@astrojs/tailwind": "^5.1.0",
+    "@popperjs/core": "^2.11.8",
+    "@preline/accordion": "^2.5.0",
+    "@preline/carousel": "^2.5.0",
+    "@preline/overlay": "^2.5.0",
+    "@preline/stepper": "^2.5.0",
+    "@preline/tabs": "^2.5.0",
+    "@preline/tooltip": "^2.5.0",
+    "astro": "^4.15.10",
+    "lenis": "^1.0.45",
+    "preline": "^2.5.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sharp": "^0.33.5",
+    "swiper": "^11.1.3",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5",
+    "vite": "^5.4.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.9"
+  }
+}

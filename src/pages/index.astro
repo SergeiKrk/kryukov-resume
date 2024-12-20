@@ -1,0 +1,21 @@
+---
+import Cases from "../components/sections/CasesResume.astro";
+import Hero from "../components/sections/HeroResume.astro";
+import Process from "../components/sections/ProcessResume.astro";
+import Technologys from "../components/sections/TechnologysSlider.astro";
+import MainLayout from "../layouts/MainLayoutResume.astro";
+import "../styles/globals.css";
+import AdvantageSlider from "../components/ui/AdvantageSlider.astro";
+---
+
+<MainLayout
+  title="Резюме: Крюков Сергей"
+  description="Резюме Web-разработчика Крюкова Сергея"
+>
+  <Hero />
+  <AdvantageSlider/>
+  <Process />
+  <Technologys />
+  <Cases />
+</MainLayout>
+

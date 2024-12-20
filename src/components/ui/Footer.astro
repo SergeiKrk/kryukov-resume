@@ -1,0 +1,101 @@
+---
+import { Image } from "astro:assets";
+import Pinterest from "../../assets/pinterest.svg";
+
+const logos = [
+  { name: "Pinterest", src: Pinterest, link: "https://ru.pinterest.com/kryukovsergeii" },
+];
+
+const links = [
+  { name: "About us", href: "#about" },
+  { name: "Services", href: "#services" },
+  { name: "Use Cases", href: "#cases" },
+  { name: "Pricing", href: "#Testimonials" },
+  { name: "Blog", href: "#Home" },
+];
+---
+
+<section class="sm:px-5 sm:mt-32">
+  <div class="w-full max-w-[1240px] mx-auto">
+    <div
+      class="greenhead px-[15px] bg-dark text-white py-[55px] lg:px-[60px] sm:rounded-t-[45px] sm:rounded-b-0"
+    >
+      <div>
+        <div
+          class="flex flex-col lg:flex-row gap-7 items-center justify-between"
+        >
+        <div class="pl-4 xl:flex-none">
+          <a href="#home">
+            <span class="text-[36px] lg:text-[52px] font-[950]">KS</span>
+          </a>
+        </div>
+          <ul class="flex flex-col sm:flex-row gap-5">
+            {
+              links.map((link) => {
+                return (
+                  <li class="text-center">
+                    <a class="underline" href={link.href}>
+                      {link.name}
+                    </a>
+                  </li>
+                );
+              })
+            }
+          </ul>
+          <ul class="flex gap-5">
+            {
+              logos.map((logo) => {
+                return (
+                  <li>
+                    <a href={logo.link} target="_blank">
+                      <picture>
+                        <Image src={logo.src} alt={logo.name} />
+                      </picture>
+                    </a>
+                  </li>
+                );
+              })
+            }
+          </ul>
+        </div>
+
+        <div class="flex flex-col lg:flex-row mt-[66px] mb-[51px]">
+          <div
+            class="flex text-center lg:text-start flex-col w-full lg:w-[30%]"
+          >
+            <h3 class="mb-5">Мои контакты:</h3>
+            <div class="flex flex-col sm:flex-row justify-between gap-4">
+              <div class="flex flex-col justify-between gap-4 xl:min-w-[300px]">
+                <span class="lg:w-3/4">
+                  Живу в Ульяновске
+                </span>
+              </div>
+            <div class="flex flex-col justify-between gap-4 xl:min-w-[400px]">
+              <span> Email: <a href="mailto:kryukovs.ru@gmail.com">kryukovs.ru@gmail.com</a> </span>
+              <span> Телефон: <a href="tel:+79176103476">+7 917 610 34 76</a> </span>
+            </div>
+            <div class="flex flex-col gap-4 xl:min-w-[400px]">
+              <span> Tg: <a href="https://t.me/sergeikrk">@sergeikrk</a> </span>
+              <span> Wp: <a href="https://wa.me/79176103476">+7 917 610 34 76</a> </span>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="h-[1px] bg-white mb-5"></div>
+      <div
+        class="flex flex-col lg:flex-row h-20 justify-center mt-4 text-center md:justify-between md:mt-0"
+      >
+        <span class="mx-auto">
+          2024 © KryukovS - сделано с ♥️ на <a
+            class="underline"
+            target="_blank"
+            href="https://astro.build/">Astro</a
+          >
+        </span>
+        
+      </div>
+    </div>
+  </div>
+</section>

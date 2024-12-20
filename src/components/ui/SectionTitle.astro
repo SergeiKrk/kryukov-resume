@@ -1,0 +1,10 @@
+---
+const { sectionTitle, description } = Astro.props;
+---
+
+<div class="flex flex-col mb-12">
+  <h2 class="text-2xl font-bold text-center sm:text-4xl" set:html={sectionTitle}/>
+  <div class="text-center">
+  <p class="mx-auto sm:mt-8 sm:w-[580px]" set:html={description}/>
+</div>
+</div>

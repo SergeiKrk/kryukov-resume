@@ -1,0 +1,26 @@
+---
+---
+<style>
+
+	@keyframes slide {
+		0% {
+			transform: translateX(0);
+		}
+		50% {
+			transform: translateX(-100%);
+		}
+		100% {
+			transform: translateX(0);
+		}
+	}
+
+	.animate-slide {
+		animation: slide 1s infinite;
+	}
+</style>
+
+<div class='my-auto max-w-54 font-bold text-[12px] 3xl:text-[16px] py-4 ml-4 hidden lg:flex'>
+    <div class='flex items-center ml-4 '>
+        <span class='animate-slide text-2xl -mt-2'>👈</span>
+    </div> Выберите удобный способ связи
+</div>

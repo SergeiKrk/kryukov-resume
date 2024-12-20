@@ -1,0 +1,73 @@
+---
+import SectionTitle from "../ui/SectionTitle.astro";
+import ServiceCard from "../ui/ServiceCard.astro";
+import Section from "./Section.astro";
+
+import c1 from "../../assets/pics/v-top.gif";
+import c2 from "../../assets/pics/yd_logo.jpg";
+import c3 from "../../assets/pics/avito_logo.jpg";
+import c4 from "../../assets/pics/pinterest_icon.jpg";
+
+const cards = [
+  {
+    index: 1,
+    titleTop: "SEO-продвижение сайта",
+    costService: "от 12 000 руб.",
+    timeService: "за 1 месяц ведения",
+    img: c1,
+    alt: "SEO-продвижение сайта",
+    link: "/seo-prodvizhenie",
+  },
+  {
+    index: 2,
+    titleTop: "Яндекс Директ",
+    costService: "от 10 000 руб.",
+    timeService: "разработка от 3 дней",
+    img: c2,
+    alt: "Яндекс Директ",
+    link: "/yandeks-direkt",
+  },
+  {
+    index: 3,
+    titleTop: "Продвижение в Авито",
+    costService: "от 10 000 руб.",
+    timeService: "за 1 месяц ведения",
+    img: c3,
+    alt: "Продвижение в Авито",
+    link: "/prodvizhenie-v-avito",
+  },
+  {
+    index: 1,
+    titleTop: "Продвижение в Pinterest",
+    costService: "от 22 500 руб.",
+    timeService: "за 1 месяц ведения",
+    img: c4,
+    alt: "Продвижение в Pinterest",
+    link: "prodvizhenie-pinterest",
+  },
+];
+
+const description =
+  "22222 At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include";
+---
+
+<Section id="services">
+  <div class="my-24 lg:my-52 mx-auto">
+    <SectionTitle sectionTitle="Мои услуги <span class='greenhead'>по продвижению</span>" description={description} />
+    <div class="2xl:w-[80%] 2xl:mx-auto grid lg:grid-cols-2 gap-10">
+      {
+        cards.map((card) => (
+          <ServiceCard
+            index={card.index}
+            titleTop={card.titleTop}
+            costService={card.costService}
+            timeService={card.timeService}
+            img={card.img}
+            alt={card.alt}
+            link={card.link}
+          />
+        ))
+      }
+    </div>
+  </div>
+</Section>

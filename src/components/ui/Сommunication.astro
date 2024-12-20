@@ -1,0 +1,82 @@
+---
+import FingerDesignator from './FingerDesignator.astro'
+import ContactButton from './ContactButton.astro'
+---
+<style>
+  .wvcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.wvBtn {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  border-radius: 40px;
+  width: 200px;
+  height: 70px;
+  box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
+    -2px -2px 12px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1), 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+.spa {
+  position: relative;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  letter-spacing: 8px;
+  top: 20px;
+}
+a .liquid {
+  /* position: absolute; */
+  position: relative;
+  left: 0;
+  top: -115px;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(0deg, #03a9f0, #f441a5);
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.7);
+  transition: 0.3s;
+}
+a:hover .liquid {
+  top: -150px;
+}
+a .liquid:after,
+a .liquid:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 200%;
+  height: 200%;
+  transform: translate(-50%, -75%);
+}
+a .liquid::after {
+  border-radius: 40%;
+  background: rgb(255, 255, 255);
+  animation: animate 5s linear infinite;
+}
+a .liquid::before {
+  border-radius: 35%;
+  background: rgba(255, 255, 255, 0.5);
+  animation: animate 10s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
+</style>
+<div class="lg:my-10 px-4 lg:px-8 py-10 rounded-3xl bg-[#FFFFFF]/70">
+
+    <div class='flex text-xl lg:text-[28px] mb-2 font-bold'><span class="inline animate-bounce w-6 h-10 my-2 mx-4 text-3xl">👇</span>Напишите мне: </div>
+  
+  <div class="mt-6">
+    <ContactButton title="Telegram"/>
+</div>

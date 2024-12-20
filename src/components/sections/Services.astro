@@ -1,0 +1,73 @@
+---
+import SectionTitle from "../ui/SectionTitle.astro";
+import ServiceCard from "../ui/ServiceCard.astro";
+import Section from "./Section.astro";
+
+import sv from "../../assets/pics/sait-vizitka.gif";
+import lp from "../../assets/pics/landing-page.gif";
+import su from "../../assets/pics/sait-uslug.gif";
+import cs from "../../assets/pics/korporativnii-sait.gif";
+
+const cards = [
+  {
+    index: 1,
+    titleTop: "Сайт-визитка",
+    costService: "от 9000 руб.",
+    timeService: 'разработка от 3 дней',
+    img: sv,
+    alt: "разработка сайта-визитки",
+    link: "/razrabotka-saita",
+  },
+  {
+    index: 2,
+    titleTop: "Landing Page",
+    costService: "от 18 000 руб.",
+    timeService: 'разработка от 7 дней',
+    img: lp,
+    alt: "создание Landing Page",
+    link: "https://google.com",
+  },
+  {
+    index: 3,
+    titleTop: "Cайт услуг",
+    costService: "от 25 000 руб.",
+    timeService: 'разработка от 10 дней',
+    img: su,
+    alt: "разработка сайта услуг",
+    link: "https://google.com",
+  },
+  {
+    index: 1,
+    titleTop: "Корпоративный сайт",
+    costService: "от 50 000 руб.",
+    timeService: 'разработка от 20 дней',
+    img: cs,
+    alt: "создание корпоративного сайта",
+    link: "https://google.com",
+  },
+];
+
+const description =
+  "At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include";
+---
+
+<Section id="services">
+  <div class="my-24 lg:my-52 mx-auto">
+    <SectionTitle sectionTitle="Мои услуги <span class='greenhead'>по разработке</span> сайтов" description={description} />
+    <div class="2xl:w-[80%] 2xl:mx-auto grid lg:grid-cols-2 gap-10">
+      {
+        cards.map((card) => (
+          <ServiceCard
+            index={card.index}
+            titleTop={card.titleTop}
+            costService={card.costService}
+            timeService={card.timeService}
+            img={card.img}
+            alt={card.alt}
+            link={card.link}
+          />
+        ))
+      }
+    </div>
+  </div>
+</Section>

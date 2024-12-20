@@ -1,0 +1,20 @@
+---
+import { Image } from "astro:assets";
+
+const { titleTop, costService, timeService, img, alt, link } = Astro.props;
+---
+
+<a href={link} class="group flex flex-col h-full border border-gray-50  bg-[#fff] hover:border-transparent hover:shadow-2xl focus:outline-none focus:border-transparent focus:shadow-2xl transition duration-300 rounded-2xl p-5">
+  <div class="flex sm:flex-row sm:items-center gap-3 sm:gap-5">
+  <div class="max-w-[80px] sm:max-w-full greenhead aspect-w-12 aspect-h-12 overflow-hidden bg-gray-100 rounded-2xl ">
+    <Image class="group-hover:scale-95 scale-[90%] group-focus:scale-[90%] transition-transform duration-500 ease-in-out object-cover rounded-2xl" src={img} alt={alt} width={150} height={150} />
+  </div>
+  <div class="grow">
+    <h3 class="relative inline-block font-medium text-2xl before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:rounded-full before:h-2 pb-1 before:bg-gradient-to-r before:from-[#13b690] before:to-[#855a9e] before:transition before:origin-left before:scale-x-0 group-hover:before:scale-x-100">
+      {titleTop}
+    </h3>
+    <p class="mt-4">{costService}</p>
+    <p class="mt-2">{timeService}</p>
+  </div>
+  </div>
+</a>

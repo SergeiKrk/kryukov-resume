@@ -1,0 +1,49 @@
+---
+import Section from '../sections/Section.astro'
+
+const items = [
+  "Frontand-разработка",
+  "✌️",
+  "SEO-оптимизация",
+  "👍",
+  "В зеленой зоне Google PageSpeed",
+  "🤘",
+  "Яндекс Директ",
+  "👍",
+  "Индивидуальный дизайн",
+  "🖖",
+  "Современные технологии",
+  "🤘",
+  "Реклама в VK",
+  "🤘",
+  "Маркетинг",
+  "✌️"
+];
+---
+
+<Section class="" id="advantrage-slider">
+  <div class="relative flex overflow-x-hidden mb-24 2xl:mb-52">
+    <div class="py-12 animate-marquee whitespace-nowrap">
+      {
+        items.map((item) => {
+          return (
+            <span class="mx-6 text-2xl">
+              {item}
+            </span>
+          )
+        })
+      }
+    </div>
+    <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
+      {
+        items.map((item) => {
+          return (
+            <span class="mx-6 text-2xl">
+              {item}
+            </span>
+          )
+        })
+      }
+    </div>
+  </div>
+</Section>
