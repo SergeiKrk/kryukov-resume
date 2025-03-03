@@ -6,10 +6,14 @@ import samogoncalc from '../../assets/samogoncalc.jpg'
 import sesmsk from '../../assets/sesmsk.jpg'
 import uslugialpinista from '../../assets/uslugialpinista.jpg'
 import cublog from '../../assets/cublog.jpg'
+import vypusknye from '../../assets/vipusknie.jpg'
+import rossnab73 from '../../assets/rossnab73.jpg'
 import sc from '../../assets/samogoncalcPrev.jpg'
 import al from '../../assets/uslugialpinistaPrev.jpg'
 import cb from '../../assets/cublogPrev.jpg'
 import se from '../../assets/sesmskPrev.jpg'
+import vp from '../../assets/vipuskniePrev.jpg'
+import rs from '../../assets/rossnab73Prev.jpg'
 
 const cases = [
   {
@@ -40,6 +44,20 @@ const cases = [
     img: se,
     iimg: sesmsk,
   },
+  {
+    index: 7,
+    title: "Выпускные 2025",
+    site: 'speloekids.ru/vypusknye.html',
+    img: vp,
+    iimg: vypusknye,
+  },
+  {
+    index: 6,
+    title: "РОССНАБ73",
+    site: 'rossnab73.su',
+    img: rs,
+    iimg: rossnab73,
+  },
 ];
 
 import larrow from "../../assets/icon3.svg";
@@ -48,16 +66,13 @@ import SectionTitle from "../ui/SectionTitle.astro";
 
 <Section id="cases">
   <SectionTitle/>
-  <div class="bg-white h-screen py-6 sm:py-8 lg:py-12 mb-24">
+  <div class="bg-white py-6 sm:py-8 lg:py-12 mb-24">
     <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
         <div class="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
             <div class="flex items-center gap-12">
                 <h2 class="text-2xl font-bold text-gray-800 lg:text-3xl">Мои недавние работы</h2>
 
-                <p class="hidden max-w-screen-sm text-gray-500 md:block">
-                    This is a section of some simple filler text,
-                    also known as placeholder text. It shares some characteristics of a real written text.
-                </p>
+                
             </div>
         </div>
 
