@@ -17,7 +17,7 @@ import BgGradient from '../ui/BgGradient.astro'
     <div class="mt-4 lg:mt-16 flex flex-col w-full lg:w-[90%]">
       <h1 class="text-[14px] mb-4">Резюме:</span></h1>
       <div class="leading-normal">
-        <p class="text-[44px] lg:text-6xl font-semibold">Привет! 👋</p>
+        <p class="text-[44px] lg:text-6xl font-semibold">Привет! <span class="inline-block animate-wave origin-[70%_70%]">👋</span></p>
         <p class="text-[44px] lg:text-6xl font-semibold">меня зовут</p>
         <p class="bg-clip-text text-transparent bg-gradient-to-r from-[#13b690] to-[#855a9e] text-[44px] lg:text-6xl font-semibold mt-4">Сергей Крюков</p>
       </div>
@@ -55,6 +55,32 @@ import BgGradient from '../ui/BgGradient.astro'
 <style>
   .grid-template {
     grid-template-rows: auto 1fr;
+  }
+  @keyframes wave {
+    0% { transform: rotate(0deg); }
+    5% { transform: rotate(9deg); }
+    10% { transform: rotate(18deg); }
+    15% { transform: rotate(25deg); }
+    20% { transform: rotate(29deg); }
+    25% { transform: rotate(30deg); }
+    30% { transform: rotate(29deg); }
+    35% { transform: rotate(25deg); }
+    40% { transform: rotate(18deg); }
+    45% { transform: rotate(9deg); }
+    50% { transform: rotate(0deg); }
+    55% { transform: rotate(-9deg); }
+    60% { transform: rotate(-18deg); }
+    65% { transform: rotate(-25deg); }
+    70% { transform: rotate(-29deg); }
+    75% { transform: rotate(-30deg); }
+    80% { transform: rotate(-29deg); }
+    85% { transform: rotate(-25deg); }
+    90% { transform: rotate(-18deg); }
+    95% { transform: rotate(-9deg); }
+    100% { transform: rotate(0deg); }
+  }
+  .animate-wave {
+    animation: wave 2s linear infinite;
   }
 </style>
 

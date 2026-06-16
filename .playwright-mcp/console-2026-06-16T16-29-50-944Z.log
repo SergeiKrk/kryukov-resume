@@ -1,0 +1,20 @@
+[     213ms] TypeError: Cannot read properties of null (reading 'addEventListener')
+    at https://green-crown.ru/:311:10
+    at NodeList.forEach (<anonymous>)
+    at HTMLDocument.<anonymous> (https://green-crown.ru/:304:39)
+    at B (https://green-crown.ru/assets/hoisted2.js:1:5104)
+    at V (https://green-crown.ru/assets/hoisted2.js:1:5138)
+[     514ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://smartcaptcha.yandexcloud.net/captchapgrd:0
+[     547ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://smartcaptcha.yandexcloud.net/captchapgrd:0
+[     578ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://smartcaptcha.yandexcloud.net/captchapgrd:0
+[     514ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://smartcaptcha.yandexcloud.net/captchapgrd:0
+[     547ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://smartcaptcha.yandexcloud.net/captchapgrd:0
+[     578ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://smartcaptcha.yandexcloud.net/captchapgrd:0
+[     514ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://smartcaptcha.yandexcloud.net/captchapgrd:0
+[     547ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://smartcaptcha.yandexcloud.net/captchapgrd:0
+[     578ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://smartcaptcha.yandexcloud.net/captchapgrd:0
+[     514ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://smartcaptcha.yandexcloud.net/captchapgrd:0
+[     547ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://smartcaptcha.yandexcloud.net/captchapgrd:0
+[     578ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://smartcaptcha.yandexcloud.net/captchapgrd:0
+[    9719ms] [LOG] Прокрутка: 1081 @ https://green-crown.ru/assets/hoisted.js:0
+[   17292ms] [LOG] Прокрутка: 0 @ https://green-crown.ru/assets/hoisted.js:0

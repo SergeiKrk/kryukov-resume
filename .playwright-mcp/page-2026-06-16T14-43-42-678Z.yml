@@ -1,0 +1,273 @@
+- main [ref=e2]:
+  - navigation "Main Navigation" [ref=e4]:
+    - link "KS" [ref=e6] [cursor=pointer]:
+      - /url: "#hero"
+    - generic [ref=e7]:
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Опыт" [ref=e10] [cursor=pointer]:
+            - /url: "#step-by-step"
+        - listitem [ref=e11]:
+          - link "Навыки" [ref=e12] [cursor=pointer]:
+            - /url: "#skills"
+        - listitem [ref=e13]:
+          - link "Кейсы" [ref=e14] [cursor=pointer]:
+            - /url: "#cases"
+        - listitem [ref=e15]:
+          - link "Обо мне" [ref=e16] [cursor=pointer]:
+            - /url: "#hero"
+      - generic [ref=e17]:
+        - link "Tg" [ref=e18] [cursor=pointer]:
+          - /url: https://wa.me/79176103476
+          - img "Tg" [ref=e19]
+        - link "Wp" [ref=e20] [cursor=pointer]:
+          - /url: https://t.me/sergeikrk
+          - img "Wp" [ref=e21]
+  - generic [ref=e24]:
+    - generic [ref=e25]:
+      - heading "Резюме:" [level=1] [ref=e26]
+      - generic [ref=e27]:
+        - paragraph [ref=e28]: Привет! 👋
+        - paragraph [ref=e29]: меня зовут
+        - paragraph [ref=e30]: Сергей Крюков
+      - paragraph [ref=e31]: "Ищу работу на должность:"
+      - list [ref=e32]:
+        - listitem [ref=e33]: "- Frotand-разработчик"
+        - listitem [ref=e34]: "- Программист"
+        - listitem [ref=e35]: "- web-разработчик"
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - img "KryukovS" [ref=e39]
+        - img "nout" [ref=e40]
+        - img "nout2" [ref=e41]
+        - img "nout3" [ref=e42]
+      - paragraph [ref=e44]: Мне нравится создавать классные SEO-оптимизированные сайты и быстрые web-приложения.
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - generic [ref=e48]: 👇
+        - text: "Напишите мне:"
+      - generic [ref=e50]:
+        - link "Tg WhatsApp" [ref=e51] [cursor=pointer]:
+          - /url: https://wa.me/79176103476
+          - button "Tg WhatsApp" [ref=e52]:
+            - img "Tg" [ref=e53]
+            - generic [ref=e54]: WhatsApp
+        - generic [ref=e55]: ИЛИ
+        - link "Wp Telegram" [ref=e56] [cursor=pointer]:
+          - /url: https://t.me/sergeikrk
+          - button "Wp Telegram" [ref=e57]:
+            - img "Wp" [ref=e58]
+            - generic [ref=e59]: Telegram
+  - generic [ref=e66]:
+    - generic [ref=e67]: Frontand-разработка ✌️ SEO-оптимизация 👍 В зеленой зоне Google PageSpeed 🤘 Яндекс Директ 👍 Индивидуальный дизайн 🖖 Современные технологии 🤘 Реклама в VK 🤘 Маркетинг ✌️
+    - generic [ref=e68]: Frontand-разработка ✌️ SEO-оптимизация 👍 В зеленой зоне Google PageSpeed 🤘 Яндекс Директ 👍 Индивидуальный дизайн 🖖 Современные технологии 🤘 Реклама в VK 🤘 Маркетинг ✌️
+  - generic [ref=e71]:
+    - generic [ref=e72]:
+      - heading "Опыт работы" [level=2] [ref=e73]
+      - generic [ref=e74]:
+        - paragraph
+    - generic [ref=e75]:
+      - generic [ref=e76]:
+        - button "7 Частная Frontend-разработка." [ref=e77] [cursor=pointer]:
+          - generic [ref=e78]:
+            - generic [ref=e79]: "7"
+            - text: Частная Frontend-разработка.
+        - 'generic "7 Частная Frontend-разработка. Февраль 2021 — по настоящее время, 3 года 10 месяцев | Разработка сайтов для частных клиентов с использованием ReactJS, Redux, Bootstrap, Astro.build, TailwindCss. Мои работы: samogoncalc.ru, sesmsk.su, uslugialpinista.ru, cublog.ru" [ref=e82]':
+          - paragraph [ref=e84]: "Февраль 2021 — по настоящее время, 3 года 10 месяцев | Разработка сайтов для частных клиентов с использованием ReactJS, Redux, Bootstrap, Astro.build, TailwindCss. Мои работы: samogoncalc.ru, sesmsk.su, uslugialpinista.ru, cublog.ru"
+      - generic [ref=e85]:
+        - button "6 Руководитель интернет-проекта | ИП Гершович" [ref=e86] [cursor=pointer]:
+          - generic [ref=e87]:
+            - generic [ref=e88]: "6"
+            - text: Руководитель интернет-проекта | ИП Гершович
+        - 'generic "7 Частная Frontend-разработка. Февраль 2021 — по настоящее время, 3 года 10 месяцев | Разработка сайтов для частных клиентов с использованием ReactJS, Redux, Bootstrap, Astro.build, TailwindCss. Мои работы: samogoncalc.ru, sesmsk.su, uslugialpinista.ru, cublog.ru" [ref=e91]':
+          - paragraph [ref=e93]: Июнь 2018 — по настоящее время, 6 лет 6 месяцев | Ведение сайтов организации. Разработка сайтов. Продвижение и маркетинг.
+      - generic [ref=e94]:
+        - button "5 Программист | Seo.ru" [ref=e95] [cursor=pointer]:
+          - generic [ref=e96]:
+            - generic [ref=e97]: "5"
+            - text: Программист | Seo.ru
+        - 'generic "7 Частная Frontend-разработка. Февраль 2021 — по настоящее время, 3 года 10 месяцев | Разработка сайтов для частных клиентов с использованием ReactJS, Redux, Bootstrap, Astro.build, TailwindCss. Мои работы: samogoncalc.ru, sesmsk.su, uslugialpinista.ru, cublog.ru" [ref=e100]':
+          - paragraph [ref=e102]: Сентябрь 2015 – июнь 2018, 2 года 10 месяцев | Доработка сайтов клиентов по ТЗ от СЕO-специалиста.
+      - generic [ref=e103]:
+        - button "4 Преподаватель кафедры информатики | УлГПУ" [ref=e104] [cursor=pointer]:
+          - generic [ref=e105]:
+            - generic [ref=e106]: "4"
+            - text: Преподаватель кафедры информатики | УлГПУ
+        - 'generic "7 Частная Frontend-разработка. Февраль 2021 — по настоящее время, 3 года 10 месяцев | Разработка сайтов для частных клиентов с использованием ReactJS, Redux, Bootstrap, Astro.build, TailwindCss. Мои работы: samogoncalc.ru, sesmsk.su, uslugialpinista.ru, cublog.ru" [ref=e109]':
+          - paragraph [ref=e111]: "Январь 2015 – сентябрь 2015, 9 месяцев | Преподавание IT дисциплин: компьютерное моделирование, компьютерная графика и технология обработки изображения, компьютерные сети, информационные системы, основы информационных технологий"
+      - generic [ref=e112]:
+        - button "3 Инженер-электронщик | УлГПУ" [ref=e113] [cursor=pointer]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: "3"
+            - text: Инженер-электронщик | УлГПУ
+        - 'generic "7 Частная Frontend-разработка. Февраль 2021 — по настоящее время, 3 года 10 месяцев | Разработка сайтов для частных клиентов с использованием ReactJS, Redux, Bootstrap, Astro.build, TailwindCss. Мои работы: samogoncalc.ru, sesmsk.su, uslugialpinista.ru, cublog.ru" [ref=e118]':
+          - paragraph [ref=e120]: май 2014 – сентябрь 2015, 1 год 5 месяцев | Организация локальных сетей, обслуживание ПК и поддержка сайта университета.
+      - generic [ref=e121]:
+        - button "2 Специалист | МТС" [ref=e122] [cursor=pointer]:
+          - generic [ref=e123]:
+            - generic [ref=e124]: "2"
+            - text: Специалист | МТС
+        - 'generic "7 Частная Frontend-разработка. Февраль 2021 — по настоящее время, 3 года 10 месяцев | Разработка сайтов для частных клиентов с использованием ReactJS, Redux, Bootstrap, Astro.build, TailwindCss. Мои работы: samogoncalc.ru, sesmsk.su, uslugialpinista.ru, cublog.ru" [ref=e127]':
+          - paragraph [ref=e129]: Ноябрь 2011 – май 2014, 2 года 7 месяцев | Информационная и техническая поддержка мобильных услуг, интернета и ТВ.
+      - generic [ref=e130]:
+        - button "1 Программист | Кадастровая палата (срочный договор)" [ref=e131] [cursor=pointer]:
+          - generic [ref=e132]:
+            - generic [ref=e133]: "1"
+            - text: Программист | Кадастровая палата (срочный договор)
+        - 'generic "7 Частная Frontend-разработка. Февраль 2021 — по настоящее время, 3 года 10 месяцев | Разработка сайтов для частных клиентов с использованием ReactJS, Redux, Bootstrap, Astro.build, TailwindCss. Мои работы: samogoncalc.ru, sesmsk.su, uslugialpinista.ru, cublog.ru" [ref=e136]':
+          - paragraph [ref=e138]: Август 2011 – сентябрь 2011, 2 месяца | Управление базами данных и системное администрирование.
+  - generic [ref=e141]:
+    - heading "Стек технологий и мои навыки" [level=2] [ref=e143]:
+      - text: Стек технологий
+      - text: и мои навыки
+    - generic [ref=e144]:
+      - generic [ref=e145]:
+        - img "TailwindCSS" [ref=e147]
+        - img "Redux" [ref=e149]
+        - img "ReactJS" [ref=e151]
+        - img "HTML5" [ref=e153]
+        - img "CSS3" [ref=e155]
+        - img "JS" [ref=e157]
+        - img "Preline" [ref=e159]
+        - img "Saas" [ref=e161]
+        - img "TS" [ref=e163]
+        - img "Git" [ref=e165]
+        - img "GitHub" [ref=e167]
+        - img "NodeJS" [ref=e169]
+        - img "VSCode" [ref=e171]
+      - generic [ref=e172]:
+        - img "TailwindCSS" [ref=e174]
+        - img "Redux" [ref=e176]
+        - img "ReactJS" [ref=e178]
+        - img "HTML5" [ref=e180]
+        - img "CSS3" [ref=e182]
+        - img "JS" [ref=e184]
+        - img "Preline" [ref=e186]
+        - img "Saas" [ref=e188]
+        - img "TS" [ref=e190]
+        - img "Git" [ref=e192]
+        - img "GitHub" [ref=e194]
+        - img "NodeJS" [ref=e196]
+        - img "VSCode" [ref=e198]
+    - generic [ref=e199]:
+      - generic [ref=e200]:
+        - heading "SEO" [level=4] [ref=e201]
+        - generic [ref=e202]: Оптимизация сайтов
+      - generic [ref=e203]:
+        - generic [ref=e204]: Маркетинг
+        - heading "Яндекс Директ, VK Реклама" [level=4] [ref=e205]
+      - generic [ref=e206]:
+        - generic [ref=e207]: SERM
+        - heading "Управление репутацией" [level=4] [ref=e208]
+    - generic [ref=e209]:
+      - generic [ref=e210]: "Навыки:"
+      - generic [ref=e211]: JavaScript
+      - generic [ref=e212]: Git
+      - generic [ref=e213]: React
+      - generic [ref=e214]: TypeScript
+      - generic [ref=e215]: Redux
+      - generic [ref=e216]: RTK
+      - generic [ref=e217]: Webpack
+      - generic [ref=e218]: Bootstrap
+      - generic [ref=e219]: TailwindCSS
+      - generic [ref=e220]: MaterialUI
+      - generic [ref=e221]: Node.js
+      - generic [ref=e222]: Sass
+      - generic [ref=e223]: REST API
+      - generic [ref=e224]: npm
+      - generic [ref=e225]: yarn
+      - generic [ref=e226]: Ajax
+      - generic [ref=e227]: Astro.build
+      - generic [ref=e228]: Next.js
+      - generic [ref=e229]: Яндекс.Директ
+      - generic [ref=e230]: SEO
+      - generic [ref=e231]: Adobe Reader
+      - generic [ref=e232]: Adobe Illustrator
+      - generic [ref=e233]: Adobe After Effect
+      - generic [ref=e234]: Figma
+      - generic [ref=e235]: Google Web Designer
+      - generic [ref=e236]: CupCut
+      - generic [ref=e237]: DaVinci
+      - generic [ref=e238]: WordPress
+      - generic [ref=e239]: 1C-Bitrix
+      - generic [ref=e240]: Joomla
+      - generic [ref=e241]: MODX
+      - generic [ref=e242]: OpenCart
+      - generic [ref=e243]: Drupal
+      - generic [ref=e244]: CS Cart
+      - generic [ref=e245]: GPT
+  - generic [ref=e247]:
+    - generic [ref=e248]:
+      - heading [level=2]
+      - generic [ref=e249]:
+        - paragraph
+    - generic [ref=e251]:
+      - heading "Мои недавние работы" [level=2] [ref=e254]
+      - generic [ref=e255]:
+        - button "img-SamogonCalc SamogonCalc" [ref=e256] [cursor=pointer]:
+          - img "img-SamogonCalc" [ref=e257]
+          - generic [ref=e258]: SamogonCalc
+        - button "img-Услуги альпиниста Услуги альпиниста" [ref=e259] [cursor=pointer]:
+          - img "img-Услуги альпиниста" [ref=e260]
+          - generic [ref=e261]: Услуги альпиниста
+        - button "img-CUBLOG CUBLOG" [ref=e262] [cursor=pointer]:
+          - img "img-CUBLOG" [ref=e263]
+          - generic [ref=e264]: CUBLOG
+        - button "img-СЭС МСК СЭС МСК" [ref=e265] [cursor=pointer]:
+          - img "img-СЭС МСК" [ref=e266]
+          - generic [ref=e267]: СЭС МСК
+        - button "img-Выпускные 2025 Выпускные 2025" [ref=e268] [cursor=pointer]:
+          - img "img-Выпускные 2025" [ref=e269]
+          - generic [ref=e270]: Выпускные 2025
+        - button "img-РОССНАБ73 РОССНАБ73" [ref=e271] [cursor=pointer]:
+          - img "img-РОССНАБ73" [ref=e272]
+          - generic [ref=e273]: РОССНАБ73
+  - generic [ref=e276]:
+    - generic [ref=e277]:
+      - generic [ref=e278]:
+        - link "KS" [ref=e280] [cursor=pointer]:
+          - /url: "#home"
+        - list [ref=e281]:
+          - listitem [ref=e282]:
+            - link "Обо мне" [ref=e283] [cursor=pointer]:
+              - /url: "#hero"
+          - listitem [ref=e284]:
+            - link "Опыт" [ref=e285] [cursor=pointer]:
+              - /url: "#step-by-step"
+          - listitem [ref=e286]:
+            - link "Навыки" [ref=e287] [cursor=pointer]:
+              - /url: "#skills"
+          - listitem [ref=e288]:
+            - link "Кейсы" [ref=e289] [cursor=pointer]:
+              - /url: "#cases"
+        - list [ref=e290]:
+          - listitem [ref=e291]:
+            - link "Pinterest" [ref=e292] [cursor=pointer]:
+              - /url: https://ru.pinterest.com/kryukovsergeii
+              - img "Pinterest" [ref=e294]
+      - generic [ref=e296]:
+        - heading "Мои контакты:" [level=3] [ref=e297]
+        - generic [ref=e298]:
+          - generic [ref=e300]: Живу в Ульяновске
+          - generic [ref=e301]:
+            - generic [ref=e302]:
+              - text: "Email:"
+              - link "kryukovs.ru@gmail.com" [ref=e303] [cursor=pointer]:
+                - /url: mailto:kryukovs.ru@gmail.com
+            - generic [ref=e304]:
+              - text: "Телефон:"
+              - link "+7 917 610 34 76" [ref=e305] [cursor=pointer]:
+                - /url: tel:+79176103476
+          - generic [ref=e306]:
+            - generic [ref=e307]:
+              - text: "Tg:"
+              - link "@sergeikrk" [ref=e308] [cursor=pointer]:
+                - /url: https://t.me/sergeikrk
+            - generic [ref=e309]:
+              - text: "Wp:"
+              - link "+7 917 610 34 76" [ref=e310] [cursor=pointer]:
+                - /url: https://wa.me/79176103476
+    - generic [ref=e313]:
+      - text: 2024 © KryukovS - сделано с ♥️ на
+      - link "Astro" [ref=e314] [cursor=pointer]:
+        - /url: https://astro.build/

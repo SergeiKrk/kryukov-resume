@@ -1,0 +1,345 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - navigation "Main Navigation" [ref=e4]:
+      - link "KS" [ref=e6] [cursor=pointer]:
+        - /url: "#hero"
+      - generic [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Опыт" [ref=e10] [cursor=pointer]:
+              - /url: "#step-by-step"
+          - listitem [ref=e11]:
+            - link "Навыки" [ref=e12] [cursor=pointer]:
+              - /url: "#skills"
+          - listitem [ref=e13]:
+            - link "Кейсы" [ref=e14] [cursor=pointer]:
+              - /url: "#cases"
+          - listitem [ref=e15]:
+            - link "Обо мне" [ref=e16] [cursor=pointer]:
+              - /url: "#hero"
+        - generic [ref=e17]:
+          - link "Tg" [ref=e18] [cursor=pointer]:
+            - /url: https://wa.me/79176103476
+            - img "Tg" [ref=e19]
+          - link "Wp" [ref=e20] [cursor=pointer]:
+            - /url: https://t.me/sergeikrk
+            - img "Wp" [ref=e21]
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - heading "Резюме:" [level=1] [ref=e26]
+        - generic [ref=e27]:
+          - paragraph [ref=e28]: Привет! 👋
+          - paragraph [ref=e29]: меня зовут
+          - paragraph [ref=e30]: Сергей Крюков
+        - paragraph [ref=e31]: "Ищу работу на должность:"
+        - list [ref=e32]:
+          - listitem [ref=e33]: "- Frotand-разработчик"
+          - listitem [ref=e34]: "- Программист"
+          - listitem [ref=e35]: "- web-разработчик"
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - img "KryukovS" [ref=e39]
+          - img "KryukovS" [ref=e40]
+          - img "nout" [ref=e41]
+          - img "nout2" [ref=e42]
+          - img "nout3" [ref=e43]
+        - paragraph [ref=e45]: Мне нравится создавать классные SEO-оптимизированные сайты и быстрые web-приложения.
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - generic [ref=e49]: 👇
+          - text: "Напишите мне:"
+        - generic [ref=e51]:
+          - link "Tg WhatsApp" [ref=e52] [cursor=pointer]:
+            - /url: https://wa.me/79176103476
+            - button "Tg WhatsApp" [ref=e53]:
+              - img "Tg" [ref=e54]
+              - generic [ref=e55]: WhatsApp
+          - generic [ref=e56]: ИЛИ
+          - link "Wp Telegram" [ref=e57] [cursor=pointer]:
+            - /url: https://t.me/sergeikrk
+            - button "Wp Telegram" [ref=e58]:
+              - img "Wp" [ref=e59]
+              - generic [ref=e60]: Telegram
+    - generic [ref=e67]:
+      - generic [ref=e68]: Frontand-разработка ✌️ SEO-оптимизация 👍 В зеленой зоне Google PageSpeed 🤘 Яндекс Директ 👍 Индивидуальный дизайн 🖖 Современные технологии 🤘 Реклама в VK 🤘 Маркетинг ✌️
+      - generic [ref=e69]: Frontand-разработка ✌️ SEO-оптимизация 👍 В зеленой зоне Google PageSpeed 🤘 Яндекс Директ 👍 Индивидуальный дизайн 🖖 Современные технологии 🤘 Реклама в VK 🤘 Маркетинг ✌️
+    - generic [ref=e72]:
+      - generic [ref=e73]:
+        - heading "Опыт работы" [level=2] [ref=e74]
+        - generic [ref=e75]:
+          - paragraph
+      - generic [ref=e76]:
+        - generic [ref=e77]:
+          - button "8 Product Engineer (frontend-направление) | AWX" [ref=e78] [cursor=pointer]:
+            - generic [ref=e79]:
+              - generic [ref=e80]: "8"
+              - text: Product Engineer (frontend-направление) | AWX
+          - generic [ref=e83]:
+            - generic [ref=e85]:
+              - generic [ref=e86]: Март 2025 — Июнь 2026 (1 год 4 месяца) | Удалённо
+              - generic [ref=e87]: "Стек: React 18, TypeScript, Redux Toolkit, Material UI, REST API, Vue.js 3"
+              - list [ref=e88]:
+                - listitem [ref=e89]: Создание новых пользовательских интерфейсов и бизнес-функций для основного продукта компании
+                - listitem [ref=e90]: Разработка и развитие Telegram Mini App на React, TypeScript и Material UI
+                - listitem [ref=e91]: "Создание и развитие внутренней дизайн-системы на Material UI (MUI): 30+ переиспользуемых компонентов"
+                - listitem [ref=e92]: Разработка UI для AI-first продукта на React 18 + TypeScript
+                - listitem [ref=e93]: Разработка и поддержка веб-платформы с административной панелью на Vue.js и PHP
+                - listitem [ref=e94]: "Рефакторинг легаси-кода без регрессий: миграция компонентов, устранение дублирования"
+                - listitem [ref=e95]: "Построение сложных UI: DataGrid, аналитические дашборды, визуализация данных"
+                - listitem [ref=e96]: Интеграция фронтенда с REST API и серверной логикой
+                - listitem [ref=e97]: "Изучение Feature-Sliced Design (FSD): разделение на слои, модульная архитектура"
+              - heading "Достижения:" [level=4] [ref=e98]
+              - list [ref=e99]:
+                - listitem [ref=e100]: Разработал и внедрил ряд новых модулей для веб-платформы и административной панели, расширив функциональность продукта
+                - listitem [ref=e101]: Участвовал в создании и развитии Telegram Mini App с нуля до рабочего решения для пользователей
+                - listitem [ref=e102]: Снизил время разработки новых функций за счёт активного внедрения AI-инструментов и агентных систем в рабочие процессы
+                - listitem [ref=e103]: Улучшил качество и поддерживаемость кода через рефакторинг и стандартизацию компонентов
+                - listitem [ref=e104]: Оптимизировал процессы разработки, что позволило быстрее выпускать обновления и исправления
+                - listitem [ref=e105]: Внедрил современные практики разработки на React, TypeScript и Vue.js, повысив стабильность клиентских приложений
+        - generic [ref=e106]:
+          - button "7 Frontend-разработчик | Собственные проекты" [ref=e107] [cursor=pointer]:
+            - generic [ref=e108]:
+              - generic [ref=e109]: "7"
+              - text: Frontend-разработчик | Собственные проекты
+          - generic [ref=e112]:
+            - generic [ref=e114]:
+              - generic [ref=e115]: Февраль 2021 — Февраль 2025 (4 года 1 месяц) | Удалённо
+              - paragraph [ref=e116]: 5 production-проектов на React + TypeScript в продакшене.
+              - list [ref=e117]:
+                - listitem [ref=e118]: "samogoncalc.ru — агрегатор с парсингом 10+ источников, сложная фильтрация и визуализация. Astro.build, React, Redux, RTK Query, Bootstrap. Переписан 3 раза: React+Redux → Next.js+Tailwind → Astro+React+Tailwind"
+                - listitem [ref=e119]: green-crown.ru — Astro.build, React, TailwindCSS
+                - listitem [ref=e120]: sesmsk.su — Astro.build, React, TailwindCSS
+                - listitem [ref=e121]: uslugialpinista.ru — Astro.build, React, TailwindCSS
+                - listitem [ref=e122]: cublog.ru — Astro.build, React, TailwindCSS
+              - paragraph [ref=e123]: "Коммерческие сайты: React, TailwindCSS, Webpack — адаптивный дизайн, SPA-компоненты."
+        - generic [ref=e124]:
+          - button "6 Руководитель интернет-проекта | Fullstack-разработчик | ИП Гершович" [ref=e125] [cursor=pointer]:
+            - generic [ref=e126]:
+              - generic [ref=e127]: "6"
+              - text: Руководитель интернет-проекта | Fullstack-разработчик | ИП Гершович
+          - generic [ref=e130]:
+            - generic [ref=e132]:
+              - generic [ref=e133]: Июнь 2018 — Декабрь 2024 (6 лет 7 месяцев)
+              - list [ref=e134]:
+                - listitem [ref=e135]: "Онлайн-конструктор гардеробных систем (SaaS): React + TypeScript + Konva.js — интерактивный 2D-редактор"
+                - listitem [ref=e136]: Drag & drop, масштабирование, undo/redo, экспорт проектов
+                - listitem [ref=e137]: Каталог 100+ параметризованных UI-компонентов
+                - listitem [ref=e138]: "Интеграция с backend: расчёт стоимости, генерация спецификаций"
+                - listitem [ref=e139]: "Продуктовое мышление: UX-исследование → прототип → A/B-тест → итерация"
+                - listitem [ref=e140]: Разработка и ведение 7 коммерческих веб-приложений, UX/UI-проектирование
+                - listitem [ref=e141]: SEO-продвижение, маркетинг
+        - generic [ref=e142]:
+          - button "5 Программист | Seo.ru" [ref=e143] [cursor=pointer]:
+            - generic [ref=e144]:
+              - generic [ref=e145]: "5"
+              - text: Программист | Seo.ru
+          - generic [ref=e148]:
+            - generic [ref=e150]:
+              - generic [ref=e151]: Сентябрь 2015 — Июнь 2018 (2 года 10 месяцев)
+              - list [ref=e152]:
+                - listitem [ref=e153]: Доработка сайтов клиентов по ТЗ от CEO-специалиста
+        - generic [ref=e154]:
+          - button "4 Преподаватель кафедры информатики | УлГПУ" [ref=e155] [cursor=pointer]:
+            - generic [ref=e156]:
+              - generic [ref=e157]: "4"
+              - text: Преподаватель кафедры информатики | УлГПУ
+          - generic [ref=e160]:
+            - generic [ref=e162]:
+              - generic [ref=e163]: Январь 2015 — Сентябрь 2015 (9 месяцев)
+              - paragraph [ref=e164]: "Преподавание IT-дисциплин: компьютерное моделирование, компьютерная графика и технология обработки изображений, компьютерные сети, информационные системы, основы информационных технологий."
+        - generic [ref=e165]:
+          - button "3 Инженер-электронщик | УлГПУ" [ref=e166] [cursor=pointer]:
+            - generic [ref=e167]:
+              - generic [ref=e168]: "3"
+              - text: Инженер-электронщик | УлГПУ
+          - generic [ref=e171]:
+            - generic [ref=e173]:
+              - generic [ref=e174]: Май 2014 — Сентябрь 2015 (1 год 5 месяцев)
+              - paragraph [ref=e175]: Организация локальных сетей, обслуживание ПК и поддержка сайта университета.
+        - generic [ref=e176]:
+          - button "2 Специалист | МТС" [ref=e177] [cursor=pointer]:
+            - generic [ref=e178]:
+              - generic [ref=e179]: "2"
+              - text: Специалист | МТС
+          - generic [ref=e182]:
+            - generic [ref=e184]:
+              - generic [ref=e185]: Ноябрь 2011 — Май 2014 (2 года 7 месяцев)
+              - paragraph [ref=e186]: Информационная и техническая поддержка мобильных услуг, интернета и ТВ.
+        - generic [ref=e187]:
+          - button "1 Программист | Кадастровая палата" [ref=e188] [cursor=pointer]:
+            - generic [ref=e189]:
+              - generic [ref=e190]: "1"
+              - text: Программист | Кадастровая палата
+          - generic [ref=e193]:
+            - generic [ref=e195]:
+              - generic [ref=e196]: Август 2011 — Сентябрь 2011 (2 месяца)
+              - paragraph [ref=e197]: Управление базами данных и системное администрирование.
+    - generic [ref=e200]:
+      - heading "Стек технологий и мои навыки" [level=2] [ref=e202]:
+        - text: Стек технологий
+        - text: и мои навыки
+      - generic [ref=e203]:
+        - generic [ref=e204]:
+          - img "TailwindCSS" [ref=e206]
+          - img "Redux" [ref=e208]
+          - img "ReactJS" [ref=e210]
+          - img "HTML5" [ref=e212]
+          - img "CSS3" [ref=e214]
+          - img "JS" [ref=e216]
+          - img "Preline" [ref=e218]
+          - img "Saas" [ref=e220]
+          - img "TS" [ref=e222]
+          - img "Git" [ref=e224]
+          - img "GitHub" [ref=e226]
+          - img "NodeJS" [ref=e228]
+          - img "VSCode" [ref=e230]
+        - generic [ref=e231]:
+          - img "TailwindCSS" [ref=e233]
+          - img "Redux" [ref=e235]
+          - img "ReactJS" [ref=e237]
+          - img "HTML5" [ref=e239]
+          - img "CSS3" [ref=e241]
+          - img "JS" [ref=e243]
+          - img "Preline" [ref=e245]
+          - img "Saas" [ref=e247]
+          - img "TS" [ref=e249]
+          - img "Git" [ref=e251]
+          - img "GitHub" [ref=e253]
+          - img "NodeJS" [ref=e255]
+          - img "VSCode" [ref=e257]
+      - generic [ref=e258]:
+        - generic [ref=e259]:
+          - heading "SEO" [level=4] [ref=e260]
+          - generic [ref=e261]: Оптимизация сайтов
+        - generic [ref=e262]:
+          - generic [ref=e263]: Маркетинг
+          - heading "Яндекс Директ, VK Реклама" [level=4] [ref=e264]
+        - generic [ref=e265]:
+          - generic [ref=e266]: SERM
+          - heading "Управление репутацией" [level=4] [ref=e267]
+      - generic [ref=e268]:
+        - generic [ref=e269]: "Навыки:"
+        - generic [ref=e270]: React
+        - generic [ref=e271]: TypeScript
+        - generic [ref=e272]: JavaScript
+        - generic [ref=e273]: Redux Toolkit
+        - generic [ref=e274]: CSS3
+        - generic [ref=e275]: REST API
+        - generic [ref=e276]: Webpack
+        - generic [ref=e277]: Vite
+        - generic [ref=e278]: Git
+        - generic [ref=e279]: HTML5
+        - generic [ref=e280]: SCSS
+        - generic [ref=e281]: Material UI
+        - generic [ref=e282]: TailwindCSS
+        - generic [ref=e283]: ESLint
+        - generic [ref=e284]: Prettier
+        - generic [ref=e285]: Node.js
+        - generic [ref=e286]: Vue.js
+        - generic [ref=e287]: OpenAPI
+        - generic [ref=e288]: GraphQL
+        - generic [ref=e289]: Astro.build
+        - generic [ref=e290]: Next.js
+        - generic [ref=e291]: Figma
+        - generic [ref=e292]: Bootstrap
+        - generic [ref=e293]: Docker
+        - generic [ref=e294]: Jest
+        - generic [ref=e295]: Playwright
+        - generic [ref=e296]: Jenkins
+        - generic [ref=e297]: Code Review
+        - generic [ref=e298]: ООП
+        - generic [ref=e299]: Design Patterns
+        - generic [ref=e300]: SPA
+        - generic [ref=e301]: OAuth
+        - generic [ref=e302]: WebSocket
+        - generic [ref=e303]: SEO
+        - generic [ref=e304]: npm
+        - generic [ref=e305]: yarn
+    - generic [ref=e307]:
+      - generic [ref=e308]:
+        - heading [level=2]
+        - generic [ref=e309]:
+          - paragraph
+      - generic [ref=e311]:
+        - heading "Мои недавние работы" [level=2] [ref=e314]
+        - generic [ref=e315]:
+          - button "img-SamogonCalc SamogonCalc" [ref=e316] [cursor=pointer]:
+            - img "img-SamogonCalc" [ref=e317]
+            - generic [ref=e318]: SamogonCalc
+          - button "img-Услуги альпиниста Услуги альпиниста" [ref=e319] [cursor=pointer]:
+            - img "img-Услуги альпиниста" [ref=e320]
+            - generic [ref=e321]: Услуги альпиниста
+          - button "img-CUBLOG CUBLOG" [ref=e322] [cursor=pointer]:
+            - img "img-CUBLOG" [ref=e323]
+            - generic [ref=e324]: CUBLOG
+          - button "img-СЭС МСК СЭС МСК" [ref=e325] [cursor=pointer]:
+            - img "img-СЭС МСК" [ref=e326]
+            - generic [ref=e327]: СЭС МСК
+          - button "img-Выпускные 2025 Выпускные 2025" [ref=e328] [cursor=pointer]:
+            - img "img-Выпускные 2025" [ref=e329]
+            - generic [ref=e330]: Выпускные 2025
+          - button "img-РОССНАБ73 РОССНАБ73" [ref=e331] [cursor=pointer]:
+            - img "img-РОССНАБ73" [ref=e332]
+            - generic [ref=e333]: РОССНАБ73
+    - generic [ref=e336]:
+      - generic [ref=e337]:
+        - generic [ref=e338]:
+          - link "KS" [ref=e340] [cursor=pointer]:
+            - /url: "#home"
+          - list [ref=e341]:
+            - listitem [ref=e342]:
+              - link "Обо мне" [ref=e343] [cursor=pointer]:
+                - /url: "#hero"
+            - listitem [ref=e344]:
+              - link "Опыт" [ref=e345] [cursor=pointer]:
+                - /url: "#step-by-step"
+            - listitem [ref=e346]:
+              - link "Навыки" [ref=e347] [cursor=pointer]:
+                - /url: "#skills"
+            - listitem [ref=e348]:
+              - link "Кейсы" [ref=e349] [cursor=pointer]:
+                - /url: "#cases"
+          - list [ref=e350]:
+            - listitem [ref=e351]:
+              - link "Pinterest" [ref=e352] [cursor=pointer]:
+                - /url: https://ru.pinterest.com/kryukovsergeii
+                - img "Pinterest" [ref=e354]
+        - generic [ref=e356]:
+          - heading "Мои контакты:" [level=3] [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e360]: Живу в Ульяновске
+            - generic [ref=e361]:
+              - generic [ref=e362]:
+                - text: "Email:"
+                - link "kryukovs.ru@gmail.com" [ref=e363] [cursor=pointer]:
+                  - /url: mailto:kryukovs.ru@gmail.com
+              - generic [ref=e364]:
+                - text: "Телефон:"
+                - link "+7 917 610 34 76" [ref=e365] [cursor=pointer]:
+                  - /url: tel:+79176103476
+            - generic [ref=e366]:
+              - generic [ref=e367]:
+                - text: "Tg:"
+                - link "@sergeikrk" [ref=e368] [cursor=pointer]:
+                  - /url: https://t.me/sergeikrk
+              - generic [ref=e369]:
+                - text: "Wp:"
+                - link "+7 917 610 34 76" [ref=e370] [cursor=pointer]:
+                  - /url: https://wa.me/79176103476
+      - generic [ref=e373]:
+        - text: 2024 © KryukovS - сделано с ♥️ на
+        - link "Astro" [ref=e374] [cursor=pointer]:
+          - /url: https://astro.build/
+  - generic [ref=e377]:
+    - button "Menu" [ref=e378]:
+      - img [ref=e380]
+      - generic: Menu
+    - button "Inspect" [ref=e384]:
+      - img [ref=e386]
+      - generic: Inspect
+    - button "Audit" [ref=e388]:
+      - img [ref=e390]
+      - generic: Audit
+    - button "Settings" [ref=e393]:
+      - img [ref=e395]
+      - generic: Settings
