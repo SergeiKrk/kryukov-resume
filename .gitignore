@@ -23,3 +23,10 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# playwright
+.playwright-mcp/
+
+# temp
+errors.txt
+accordion-expanded.png
