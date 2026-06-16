@@ -83,8 +83,9 @@ const content = [
       <AccordionItem
         index={item.index}
         title={item.title}
-        description={item.description}
-      />
+      >
+        <p>{item.description}</p>
+      </AccordionItem>
     );
   })
 }

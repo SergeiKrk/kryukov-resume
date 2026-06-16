@@ -167,7 +167,7 @@ import SectionTitle from "../ui/SectionTitle.astro";
     var overlay = document.querySelector('.hs-overlay.open');
     if (!overlay) return;
     var content = overlay.querySelector('.overflow-y-auto.flex-1');
-    if (content && content.contains(e.target)) {
+    if (content && e.target instanceof Node && content.contains(e.target)) {
       content.scrollTop += e.deltaY * 3;
     }
     e.preventDefault();
