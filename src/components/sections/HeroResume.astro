@@ -30,8 +30,10 @@ import BgGradient from '../ui/BgGradient.astro'
     <div class="row-span-1 xl:row-span-3">
       <div class="group  relative mb-6">
         <div class="relative h-full w-full">
-          <Image src={WebsiteDeveloper} alt="KryukovS" loading="eager" class="pl-[30%] pb-[30%] 2xl:pb-0 2xl:pl-0 lg:mt-0 rounded-3xl mt-6 ml-auto mr-0 2xl:max-w-[600px] opacity-100 group-hover:opacity-0 transition-opacity duration-500"/>
-          <Image src={WebsiteDeveloperLeft} alt="KryukovS" loading="eager" class="pl-[30%] pb-[30%] 2xl:pb-0 2xl:pl-0 lg:mt-0 rounded-3xl mt-6 ml-auto mr-0 2xl:max-w-[600px] opacity-0 group-hover:opacity-100 transition-opacity duration-500 absolute top-0 right-0"/>
+          <div class="grid [&>*]:[grid-area:1/1]">
+            <Image src={WebsiteDeveloper} alt="KryukovS" loading="eager" class="pl-[30%] pb-[30%] 2xl:pb-0 2xl:pl-0 lg:mt-0 rounded-3xl mt-6 ml-auto mr-0 2xl:max-w-[600px] opacity-100 group-hover:opacity-0 transition-opacity duration-500"/>
+            <Image src={WebsiteDeveloperLeft} alt="KryukovS" loading="eager" class="pl-[30%] pb-[30%] 2xl:pb-0 2xl:pl-0 lg:mt-0 rounded-3xl mt-6 ml-auto mr-0 2xl:max-w-[600px] opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
+          </div>
           <Image src={Nbook1} alt="nout" loading="eager" class="absolute bottom-[130px] 2xl:bottom-[220px] left-0 z-10 2xl:z-20 max-w-[210px] 2xl:max-w-[400px] translate-y-10 object-cover transition-all duration-[0.7s]"/>
           <Image src={Nbook2} alt="nout2" loading="eager" class="absolute bottom-[130px] 2xl:bottom-[220px] left-0 z-10 2xl:z-20 max-w-[210px] 2xl:max-w-[400px] translate-y-10 object-cover transition-all duration-[0.7s] 2xl:group-hover:bottom-[260px] 2xl:group-hover:left-12"/>
           <Image src={Nbook3} alt="nout3" loading="eager" class="absolute bottom-[130px] 2xl:bottom-[220px] left-0 z-10 2xl:z-20 max-w-[210px] 2xl:max-w-[400px] translate-y-10 object-cover transition-all duration-[0.7s] 2xl:group-hover:bottom-[310px] 2xl:group-hover:left-24"/>
