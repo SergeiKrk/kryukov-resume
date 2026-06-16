@@ -76,113 +76,7 @@ const technology = [
   }
 ];
 
-const skills = [
-  {
-    sk: "JavaScript",
-  },
-  {
-    sk: "Git",
-  },
-  {
-    sk: "React",
-  },
-  {
-    sk: "TypeScript",
-  },
-  {
-    sk: "Redux",
-  },
-  {
-    sk: "RTK",
-  },
-  {
-    sk: "Webpack",
-  },
-  {
-    sk: "Bootstrap",
-  },
-  {
-    sk: "TailwindCSS",
-  },
-  {
-    sk: "MaterialUI",
-  },
-  {
-    sk: "Node.js",
-  },
-  {
-    sk: "Sass",
-  },
-  {
-    sk: "REST API",
-  },
-  {
-    sk: "npm",
-  },
-  {
-    sk: "yarn",
-  },
-  {
-    sk: "Ajax",
-  },
-  {
-    sk: "Astro.build",
-  },
-  {
-    sk: "Next.js",
-  },
-  {
-    sk: "Яндекс.Директ",
-  },
-  {
-    sk: "SEO",
-  },
-  {
-    sk: "Adobe Reader",
-  },
-  {
-    sk: "Adobe Illustrator",
-  },
-  {
-    sk: "Adobe After Effect",
-  },
-  {
-    sk: "Figma",
-  },
-  {
-    sk: "Google Web Designer",
-  },
-  {
-    sk: "CupCut",
-  },
-  {
-    sk: "DaVinci",
-  },
-  {
-    sk: "WordPress",
-  },
-  {
-    sk: "1C-Bitrix",
-  },
-  {
-    sk: "Joomla",
-  },
-  {
-    sk: "MODX",
-  },
-  {
-    sk: "OpenCart",
-  },
-  {
-    sk: "Drupal",
-  },
-  {
-    sk: "CS Cart",
-  },
-  {
-    sk: "GPT",
-  },
-];
+const skills = ["React", "TypeScript", "JavaScript", "Redux Toolkit", "CSS3", "REST API", "Webpack", "Vite", "Git", "HTML5", "SCSS", "Material UI", "TailwindCSS", "ESLint", "Prettier", "Node.js", "Vue.js", "OpenAPI", "GraphQL", "Astro.build", "Next.js", "Figma", "Bootstrap", "Docker", "Jest", "Playwright", "Jenkins", "Code Review", "ООП", "Design Patterns", "SPA", "OAuth", "WebSocket", "SEO", "npm", "yarn"];
 ---
 
 <Section id="skills">
@@ -247,13 +141,11 @@ const skills = [
   <div class="md:mx-auto md:w-4xl mt-24">
     <span class="inline-block p-4 mb-3 font-bold">Навыки: </span>
     {
-      skills.map((s) => {
-        return (
-          <span  class="inline-block rounded-md py-3 px-6 bg-gray-200 ml-4 mb-4">
-            {s.sk}
-          </span>
-        )
-      })
+      skills.map((s) => (
+        <span class="inline-block rounded-md py-3 px-6 bg-gray-200 ml-4 mb-4">
+          {s}
+        </span>
+      ))
     }
   </div>
 </Section>

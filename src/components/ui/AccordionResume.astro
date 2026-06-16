@@ -1,61 +1,87 @@
 ---
 import AccordionItem from "./AccordionItem.astro";
-
-const content = [
-  {
-    index: 7,
-    title: "Частная Frontend-разработка.",
-    description:
-      "Февраль 2021 — по настоящее время, 3 года 10 месяцев | Разработка сайтов для частных клиентов с использованием ReactJS, Redux, Bootstrap, Astro.build, TailwindCss. Мои работы: samogoncalc.ru, sesmsk.su, uslugialpinista.ru, cublog.ru",
-  },
-  {
-    index: 6,
-    title: "Руководитель интернет-проекта | ИП Гершович",
-    description:
-      "Июнь 2018 — по настоящее время, 6 лет 6 месяцев | Ведение сайтов организации. Разработка сайтов. Продвижение и маркетинг.",
-  },
-  {
-    index: 5,
-    title: "Программист | Seo.ru",
-    description:
-      "Сентябрь 2015 – июнь 2018, 2 года 10 месяцев | Доработка сайтов клиентов по ТЗ от СЕO-специалиста.",
-  },
-  {
-    index: 4,
-    title: "Преподаватель кафедры информатики | УлГПУ",
-    description:
-      "Январь 2015 – сентябрь 2015, 9 месяцев | Преподавание IT дисциплин: компьютерное моделирование, компьютерная графика и технология обработки изображения, компьютерные сети, информационные системы, основы информационных технологий",
-  },
-  {
-    index: 3,
-    title: "Инженер-электронщик | УлГПУ",
-    description:
-      "май 2014 – сентябрь 2015, 1 год 5 месяцев | Организация локальных сетей, обслуживание ПК и поддержка сайта университета.",
-  },
-  {
-    index: 2,
-    title: "Специалист | МТС",
-    description:
-      "Ноябрь 2011 – май 2014, 2 года 7 месяцев | Информационная и техническая поддержка мобильных услуг, интернета и ТВ.",
-  },
-  {
-    index: 1,
-    title: "Программист | Кадастровая палата (срочный договор)",
-    description:
-      "Август 2011 – сентябрь 2011, 2 месяца | Управление базами данных и системное администрирование.",
-  },
-  
-];
 ---
 
-{
-  content.map((item) => {
-    return (
-      <AccordionItem
-        index={item.index}
-        title={item.title}
-        description={item.description}
-      />
-    );
-  })
-}
+<AccordionItem index={8} title="Product Engineer (frontend-направление) | AWX">
+  <div class="text-sm text-green font-medium mb-3">Март 2025 — Июнь 2026 (1 год 4 месяца) | Удалённо</div>
+
+  <div class="mb-2"><span class="font-semibold">Стек:</span> React 18, TypeScript, Redux Toolkit, Material UI, REST API, Vue.js 3</div>
+
+  <ul class="list-disc pl-5 mb-4 space-y-1.5">
+    <li>Создание новых пользовательских интерфейсов и бизнес-функций для основного продукта компании</li>
+    <li>Разработка и развитие Telegram Mini App на React, TypeScript и Material UI</li>
+    <li>Создание и развитие внутренней дизайн-системы на Material UI (MUI): 30+ переиспользуемых компонентов</li>
+    <li>Разработка UI для AI-first продукта на React 18 + TypeScript</li>
+    <li>Разработка и поддержка веб-платформы с административной панелью на Vue.js и PHP</li>
+    <li>Рефакторинг легаси-кода без регрессий: миграция компонентов, устранение дублирования</li>
+    <li>Построение сложных UI: DataGrid, аналитические дашборды, визуализация данных</li>
+    <li>Интеграция фронтенда с REST API и серверной логикой</li>
+    <li>Изучение Feature-Sliced Design (FSD): разделение на слои, модульная архитектура</li>
+  </ul>
+
+  <h4 class="font-semibold text-black mt-4 mb-2">Достижения:</h4>
+  <ul class="list-disc pl-5 mb-4 space-y-1.5">
+    <li>Разработал и внедрил ряд новых модулей для веб-платформы и административной панели, расширив функциональность продукта</li>
+    <li>Участвовал в создании и развитии Telegram Mini App с нуля до рабочего решения для пользователей</li>
+    <li>Снизил время разработки новых функций за счёт активного внедрения AI-инструментов и агентных систем в рабочие процессы</li>
+    <li>Улучшил качество и поддерживаемость кода через рефакторинг и стандартизацию компонентов</li>
+    <li>Оптимизировал процессы разработки, что позволило быстрее выпускать обновления и исправления</li>
+    <li>Внедрил современные практики разработки на React, TypeScript и Vue.js, повысив стабильность клиентских приложений</li>
+  </ul>
+</AccordionItem>
+
+<AccordionItem index={7} title="Frontend-разработчик | Собственные проекты">
+  <div class="text-sm text-green font-medium mb-3">Февраль 2021 — Февраль 2025 (4 года 1 месяц) | Удалённо</div>
+  <p class="mb-3 leading-relaxed">5 production-проектов на React + TypeScript в продакшене.</p>
+
+  <ul class="list-disc pl-5 mb-4 space-y-1.5">
+    <li><span class="font-semibold">samogoncalc.ru</span> — агрегатор с парсингом 10+ источников, сложная фильтрация и визуализация. Astro.build, React, Redux, RTK Query, Bootstrap. Переписан 3 раза: React+Redux → Next.js+Tailwind → Astro+React+Tailwind</li>
+    <li><span class="font-semibold">green-crown.ru</span> — Astro.build, React, TailwindCSS</li>
+    <li><span class="font-semibold">sesmsk.su</span> — Astro.build, React, TailwindCSS</li>
+    <li><span class="font-semibold">uslugialpinista.ru</span> — Astro.build, React, TailwindCSS</li>
+    <li><span class="font-semibold">cublog.ru</span> — Astro.build, React, TailwindCSS</li>
+  </ul>
+
+  <p class="text-sm text-gray-500">Коммерческие сайты: React, TailwindCSS, Webpack — адаптивный дизайн, SPA-компоненты.</p>
+</AccordionItem>
+
+<AccordionItem index={6} title="Руководитель интернет-проекта | Fullstack-разработчик | ИП Гершович">
+  <div class="text-sm text-green font-medium mb-3">Июнь 2018 — Декабрь 2024 (6 лет 7 месяцев)</div>
+
+  <ul class="list-disc pl-5 mb-4 space-y-1.5">
+    <li>Онлайн-конструктор гардеробных систем (SaaS): React + TypeScript + Konva.js — интерактивный 2D-редактор</li>
+    <li>Drag & drop, масштабирование, undo/redo, экспорт проектов</li>
+    <li>Каталог 100+ параметризованных UI-компонентов</li>
+    <li>Интеграция с backend: расчёт стоимости, генерация спецификаций</li>
+    <li>Продуктовое мышление: UX-исследование → прототип → A/B-тест → итерация</li>
+    <li>Разработка и ведение 7 коммерческих веб-приложений, UX/UI-проектирование</li>
+    <li>SEO-продвижение, маркетинг</li>
+  </ul>
+</AccordionItem>
+
+<AccordionItem index={5} title="Программист | Seo.ru">
+  <div class="text-sm text-green font-medium mb-3">Сентябрь 2015 — Июнь 2018 (2 года 10 месяцев)</div>
+  <ul class="list-disc pl-5 space-y-1.5">
+    <li>Доработка сайтов клиентов по ТЗ от CEO-специалиста</li>
+  </ul>
+</AccordionItem>
+
+<AccordionItem index={4} title="Преподаватель кафедры информатики | УлГПУ">
+  <div class="text-sm text-green font-medium mb-3">Январь 2015 — Сентябрь 2015 (9 месяцев)</div>
+  <p class="leading-relaxed">Преподавание IT-дисциплин: компьютерное моделирование, компьютерная графика и технология обработки изображений, компьютерные сети, информационные системы, основы информационных технологий.</p>
+</AccordionItem>
+
+<AccordionItem index={3} title="Инженер-электронщик | УлГПУ">
+  <div class="text-sm text-green font-medium mb-3">Май 2014 — Сентябрь 2015 (1 год 5 месяцев)</div>
+  <p class="leading-relaxed">Организация локальных сетей, обслуживание ПК и поддержка сайта университета.</p>
+</AccordionItem>
+
+<AccordionItem index={2} title="Специалист | МТС">
+  <div class="text-sm text-green font-medium mb-3">Ноябрь 2011 — Май 2014 (2 года 7 месяцев)</div>
+  <p class="leading-relaxed">Информационная и техническая поддержка мобильных услуг, интернета и ТВ.</p>
+</AccordionItem>
+
+<AccordionItem index={1} title="Программист | Кадастровая палата">
+  <div class="text-sm text-green font-medium mb-3">Август 2011 — Сентябрь 2011 (2 месяца)</div>
+  <p class="leading-relaxed">Управление базами данных и системное администрирование.</p>
+</AccordionItem>

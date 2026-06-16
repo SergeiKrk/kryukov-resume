@@ -14,6 +14,8 @@ import cb from '../../assets/cublogPrev.jpg'
 import se from '../../assets/sesmskPrev.jpg'
 import vp from '../../assets/vipuskniePrev.jpg'
 import rs from '../../assets/rossnab73Prev.jpg'
+import gcFull from '../../assets/greencrown.jpg'
+import gcThumb from '../../assets/greencrownPrev.jpg'
 
 const cases = [
   {
@@ -32,10 +34,10 @@ const cases = [
   },
   {
     index: 4,
-    title: "CUBLOG",
-    site: 'cublog.ru',
-    img: cb,
-    iimg: cublog,
+    title: "Green Crown",
+    site: 'green-crown.ru',
+    img: gcThumb,
+    iimg: gcFull,
   },
   {
     index: 5,
@@ -58,6 +60,13 @@ const cases = [
     img: rs,
     iimg: rossnab73,
   },
+  {
+    index: 8,
+    title: "CUBLOG",
+    site: 'cublog.ru',
+    img: cb,
+    iimg: cublog,
+  },
 ];
 
 import larrow from "../../assets/icon3.svg";
@@ -70,7 +79,7 @@ import SectionTitle from "../ui/SectionTitle.astro";
     <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
         <div class="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
             <div class="flex items-center gap-12">
-                <h2 class="text-2xl font-bold text-gray-800 lg:text-3xl">Мои недавние работы</h2>
+                <h2 class="text-2xl font-bold text-gray-800 lg:text-3xl">Мои небольшие коммерческие WEB-приложения</h2>
 
                 
             </div>
@@ -91,7 +100,7 @@ import SectionTitle from "../ui/SectionTitle.astro";
                     <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">{c.title}</span>
                 </button>
 
-                <div id={`hs-scroll-${c.index}`} class="hs-overlay hidden size-full fixed top-0 start-0 z-[80] overflow-x-hidden overflow-y-auto pointer-events-none" role="dialog" tabindex="-1" aria-labelledby="hs-scroll-inside-body-modal-label">
+                <div id={`hs-scroll-${c.index}`} class="hs-overlay hidden size-full fixed top-0 start-0 z-[80] overflow-hidden pointer-events-none" role="dialog" tabindex="-1" aria-labelledby="hs-scroll-inside-body-modal-label">
                   <div class="hs-overlay-open:mt-7 hs-overlay-open:opacity-100 hs-overlay-open:duration-500 mt-0 opacity-0 ease-out transition-all sm:max-w-lg sm:w-full m-3 h-[calc(100%-3.5rem)] sm:mx-auto">
                     <div class="max-h-full overflow-hidden flex flex-col bg-white border shadow-sm rounded-xl pointer-events-auto">
                       <div class="flex justify-between items-center py-3 px-4 ">
@@ -106,7 +115,7 @@ import SectionTitle from "../ui/SectionTitle.astro";
                           </svg>
                         </button>
                       </div>
-                      <div class="p-4 overflow-y-auto">
+                      <div class="p-4 overflow-y-auto flex-1 min-h-0 overscroll-contain">
                         <div class="space-y-4">
                           <Image src={c.iimg} alt="samogoncalc"/>
                         </div>
@@ -126,4 +135,42 @@ import SectionTitle from "../ui/SectionTitle.astro";
  
 <script>
   import "@preline/overlay/index.js";
+</script>
+
+<script>
+  var scrollLocked = false;
+
+  function updateScrollLock() {
+    var open = !!document.querySelector('.hs-overlay.open');
+    if (open === scrollLocked) return;
+    scrollLocked = open;
+    if (open) {
+      document.documentElement.style.setProperty('overflow', 'hidden', 'important');
+      document.documentElement.style.setProperty('overscroll-behavior', 'none', 'important');
+      document.body.style.setProperty('overflow', 'hidden', 'important');
+      document.body.style.setProperty('overscroll-behavior', 'none', 'important');
+    } else {
+      document.documentElement.style.overflow = '';
+      document.documentElement.style.overscrollBehavior = '';
+      document.body.style.overflow = '';
+      document.body.style.overscrollBehavior = '';
+    }
+  }
+
+  // Watch for Preline opening/closing overlays
+  setInterval(updateScrollLock, 200);
+
+  // Prevent all wheel scrolling when overlay is open,
+  // only allow scrolling inside modal content
+  document.addEventListener('wheel', function(e) {
+    if (!scrollLocked) return;
+    var overlay = document.querySelector('.hs-overlay.open');
+    if (!overlay) return;
+    var content = overlay.querySelector('.overflow-y-auto.flex-1');
+    if (content && content.contains(e.target)) {
+      content.scrollTop += e.deltaY * 3;
+    }
+    e.preventDefault();
+    e.stopPropagation();
+  }, { passive: false, capture: true });
 </script>

@@ -2,10 +2,9 @@
 type Props = {
   index: number;
   title: string;
-  description: string;
 };
 
-const { index, title, description } = Astro.props;
+const { index, title } = Astro.props;
 ---
 
 <div
@@ -38,9 +37,9 @@ const { index, title, description } = Astro.props;
     class="accordion__content px-[42px]"
   >
     <div class="w-full h-[2px] bg-black"></div>
-    <p class="prose mb-4 mt-1 max-w-full pt-5 pb-[30px] transition-[height]">
-      {description}
-    </p>
+    <div class="prose prose-sm sm:prose-base max-w-full pt-5 pb-[30px] transition-[height] text-gray-700">
+      <slot />
+    </div>
   </div>
 </div>
 <style>
